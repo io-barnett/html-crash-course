@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Storing Data in Tables</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Super Cake Nutritional Facts</h1>
+  <table>
+    <caption>
+      Table 1: Nutritional information per 100g
+    </caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Nutrient</th>
+        <th colspan="3">Type of Cake</th>
+      </tr>
+      <tr>
+        <th>Cupcake</th>
+        <th>Fruit cake</th>
+        <th>Ice Cream Cake</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Carbohydrates</td>
+        <td>78.08g</td>
+        <td>75.56g</td>
+        <td>77.29g</td>
+      </tr>
+      <tr>
+        <td>Protein</td>
+        <td>9.00g</td>
+        <td>8.56g</td>
+        <td>9.08g</td>
+      </tr>
+      <tr>
+        <td>Total Fat</td>
+        <td>12.92g</td>
+        <td>15.88g</td>
+        <td>13.63g</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4">Note: The FDA does not approve these values</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>More Forms</title>
+</head>
+
+<body>
+  <h1>Update Info</h1>
+  <form action="" method="POST">
+    <p>Select gender:</p>
+    <label><input type="radio" name="gender" value="male" checked>Male</label>
+    <label><input type="radio" name="gender" value="female">Female</label><br>
+
+    <p>Select all your faourites</p>
+    <label><input type="checkbox" name="favourite" value="cupcake">Cupcake</label>
+    <label><input type="checkbox" name="favourite" value="fruit">Fruit Cake</label>
+    <label><input type="checkbox" name="favourite" value="ice cream">Ice Cream Cake</label>
+
+    <p>Select flavour</p>
+    <select>
+      <option value="">Select One</option>
+      <option value="vanilla">Vanilla</option>
+      <option value="pineapple" disabled>Pineapple</option>
+      <option value="garlic">Garlic</option>
+    </select><br>
+
+    <input type="submit" value="Update">
+  </form>
+</body>
+
+</html>
